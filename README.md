@@ -1,6 +1,7 @@
 # Boothの購入履歴から累計散財額を計算するツール (Chrome Extension)
 
 お手軽鬱ボタン。Boothの購入履歴の総額を計算できます。
+集計完了後にスプレッドシート等で使用できるTSVファイルがダウンロードされます。
 
 ## Original Author
 - **Author**: zeruku ([@AmatsukaZeruku](https://x.com/@matsukaZeruku))

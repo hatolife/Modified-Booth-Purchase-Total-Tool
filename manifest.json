@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Boothの購入履歴から累計散財額を計算するツール",
-  "version": "3.0.3",
-  "description": "お手軽鬱ボタン。Boothの購入履歴の総額を計算できます。",
+  "version": "3.0.4",
+  "description": "お手軽鬱ボタン。Boothの購入履歴の総額を計算できます。TSV生成するようにしました。",
   "permissions": [
     "storage"
   ],

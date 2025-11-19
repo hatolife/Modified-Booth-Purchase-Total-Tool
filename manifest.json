@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Booth購入金額計算ツール",
+  "description": "Boothの購入履歴から総額を計算する拡張機能",
+  "version": "1.0.1",
+  "permissions": ["storage", "scripting", "tabs"],
+  "host_permissions": [
+    "https://accounts.booth.pm/orders*"
+  ],
+  "action": {
+    "default_title": "Booth購入金額集計"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://accounts.booth.pm/orders*", "https://accounts.booth.pm/orders"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
